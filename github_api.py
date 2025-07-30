@@ -19,10 +19,3 @@ def get_user_repos(username, token = None):
         })
 
     return results
-
-
-# data not generated yet
-'''
-def get_repo_commits(username, repo_name, token = None):
-    response = requests.get(f"https://api.github.com/repos/{username}/{repo_name}/stats/commit_activity")
-    data = response.json() '''
