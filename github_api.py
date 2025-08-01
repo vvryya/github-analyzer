@@ -27,7 +27,7 @@ def get_commit_activity(username, token = None):
 
     data = []
     for repo in repos_resp.json():
-        repo_url = f"https://api.github.com/users/{username}/{repo["name"]}/stats/commit_activity"
+        repo_url = f"https://api.github.com/users/{username}/{repo['name']}/stats/commit_activity"
         r = requests.get(repo_url, headers = headers)
         if r.status_code == 202:
             print("GitHub is calculating stats, need to try later")
