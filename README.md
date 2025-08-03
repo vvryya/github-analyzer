@@ -18,7 +18,7 @@ This CLI tool fetches data using the GitHub API and visualizes:
 
 ---
 
-## 🛠️Tech stack
+## ⚒️Tech stack
 
 - Python
 - 'requests', 'matplotlib', 'pandas'
@@ -38,6 +38,10 @@ No external dependencies required
 ---
 
 ## 👀Usage
+
+```bash
+python3 analyzer.py
+```
 
 ![usage](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3hwejU1amxja29sNjl0ajFvdGwyaXMxcW85b2Vka3lkYjExajN2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OrGombmLdJ4QH6FGUE/giphy.gif)
 
