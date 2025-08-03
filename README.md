@@ -68,7 +68,9 @@ todo-cli/
 ├── github_api.py      # GitHub API methods
 ├── plots.py
 ├── charts/            # directory with plots
+│   ├── ...
 ├── reports/           # directory with CSV reports
+│   ├── ...
 └── README.md
 ```
 
